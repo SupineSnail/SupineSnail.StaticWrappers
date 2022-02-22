@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>default</LangVersion>
+        <Nullable>enable</Nullable>
+        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        <Title>SupineSnail Dalamud Static Wrapper DI extension</Title>
+        <Authors>SupineSnail</Authors>
+        <Description>Adds extensions to add StaticWrappers to SupineSnail DI</Description>
+        <RepositoryUrl>https://github.com/SupineSnail/SupineSnail.StaticWrappers</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SupineSnail.DependencyInjection" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SupineSnail.StaticWrappers\SupineSnail.StaticWrappers.csproj" />
+    </ItemGroup>
+
+</Project>
