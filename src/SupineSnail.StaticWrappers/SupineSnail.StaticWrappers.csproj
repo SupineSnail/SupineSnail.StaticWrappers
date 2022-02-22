@@ -15,22 +15,22 @@
     <ItemGroup>
         <Reference Include="Dalamud">
             <HintPath Condition="Exists('$(AppData)\XIVLauncher\addon\Hooks\dev')">$(AppData)\XIVLauncher\addon\Hooks\dev\Dalamud.dll</HintPath>
-            <HintPath Condition="Exists('~/Dalamud')">~\.config\AppData\XIVLauncher\addon\Hooks\dev\Dalamud.dll</HintPath>
+            <HintPath Condition="Exists('~/Dalamud')">~/Dalamud/Dalamud.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="Lumina">
             <HintPath Condition="Exists('$(AppData)\XIVLauncher\addon\Hooks\dev')">$(AppData)\XIVLauncher\addon\Hooks\dev\Lumina.dll</HintPath>
-            <HintPath Condition="Exists('~/Dalamud')">~\.config\AppData\XIVLauncher\addon\Hooks\dev\Lumina.dll</HintPath>
+            <HintPath Condition="Exists('~/Dalamud')">~/Dalamud/Lumina.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="Lumina.Excel">
             <HintPath Condition="Exists('$(AppData)\XIVLauncher\addon\Hooks\dev')">$(AppData)\XIVLauncher\addon\Hooks\dev\Lumina.Excel.dll</HintPath>
-            <HintPath Condition="Exists('~/Dalamud')">~\.config\AppData\XIVLauncher\addon\Hooks\dev\Lumina.Excel.dll</HintPath>
+            <HintPath Condition="Exists('~/Dalamud')">~/Dalamud/Lumina.Excel.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="Newtonsoft.Json">
             <HintPath Condition="Exists('$(AppData)\XIVLauncher\addon\Hooks\dev')">$(AppData)\XIVLauncher\addon\Hooks\dev\Newtonsoft.Json.dll</HintPath>
-            <HintPath Condition="Exists('~/Dalamud')">~\.config\AppData\XIVLauncher\addon\Hooks\dev\Newtonsoft.Json.dll</HintPath>
+            <HintPath Condition="Exists('~/Dalamud')">~/Dalamud/Newtonsoft.Json.dll</HintPath>
             <Private>False</Private>
         </Reference>
     </ItemGroup>
